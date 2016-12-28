@@ -11,5 +11,4 @@ def signup(request):
                             password=request.POST.get("password"))
         return HttpResponse("Success!")
 
-
     return render(request, "register.html")
